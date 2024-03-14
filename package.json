@@ -4,6 +4,9 @@
   "type": "module",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "gabo": "^0.0.2",
     "request": "^2.88.2",
