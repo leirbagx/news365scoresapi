@@ -1,6 +1,8 @@
 import { curl } from "gabo";
 import { Telegraf } from "telegraf";
-import { salvarId } from "./utils.js";
+import { salvarId, server } from "./utils.js";
+
+server()
 
 const bot = new Telegraf('6951205448:AAFepSU7MzaYJ-N-GipjnZCOxnWQRLzWdeo')
 const chatID = 6777455895
